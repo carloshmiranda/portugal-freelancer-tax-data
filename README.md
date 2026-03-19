@@ -129,12 +129,26 @@ The Non-Habitual Resident regime was replaced by IFICI starting January 2024.
 
 ## Related Resources
 
+### IRS Filing Season (April 1 - June 30, 2026)
+- [IRS Tax Return Guide for Freelancers](https://verdedesk.vercel.app/guide/irs-tax-return-freelancer-portugal) — Step-by-step Modelo 3 filing in English
+- [e-Fatura Validation Guide](https://verdedesk.vercel.app/guide/e-fatura-portugal-english) — Validate invoices before filing
+- [Tax Deductions for Freelancers](https://verdedesk.vercel.app/guide/tax-deductions-freelancer-portugal) — 15% e-Fatura rule explained
+- [IRS Filing Checklist (Gist)](https://gist.github.com/carloshmiranda/8df4bd6cad759b3fbfff7f1138ef1cee) — Printable checklist
+- [Modelo 3 Fields in English (Gist)](https://gist.github.com/carloshmiranda/9df102838cc5438c0577dfb5c065d12a) — Form field translations
+
+### Tools
 - [VerdeDesk Tax Calculator](https://verdedesk.vercel.app/tools/tax-calculator) — Free interactive calculator for IRS, SS, and VAT
 - [VerdeDesk NHR/IFICI Checker](https://verdedesk.vercel.app/tools/nhr-checker) — Check your eligibility for the 20% flat rate
+
+### Guides
 - [How to Issue a Recibo Verde in English](https://verdedesk.vercel.app/guide/recibo-verde-english) — Step-by-step guide
 - [Portal das Financas in English](https://verdedesk.vercel.app/guide/portal-das-financas-english) — Complete translation guide
 - [2026 Tax Deadlines Calendar](https://verdedesk.vercel.app/guide/tax-deadlines-2026) — Never miss a deadline
 - [VAT Exemption Article 53](https://verdedesk.vercel.app/guide/vat-exemption-article-53-portugal) — Understand the threshold rules
+- [D8 Visa Tax Guide](https://verdedesk.vercel.app/guide/d8-visa-portugal-taxes) — Tax residency for digital nomads
+- [Simplified vs Organized Regime](https://verdedesk.vercel.app/guide/simplified-vs-organized-regime) — Choose the right tax regime
+- [How to Get a NIF](https://verdedesk.vercel.app/guide/nif-portugal-foreigner) — Tax ID for foreigners
+- [All Guides](https://verdedesk.vercel.app/guides) — Complete guide directory
 
 ---
 
