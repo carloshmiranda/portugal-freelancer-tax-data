@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portugal Freelancer Tax Data 2026 — Open-Source Tax Rates, Deadlines & Codes</title>
+  <meta name="description" content="Free, open-source dataset of Portuguese freelancer tax brackets, social security rates, VAT rules, deadlines, and CAE codes for 2026. For digital nomads, D8 visa holders, and expat freelancers.">
+  <meta name="keywords" content="portugal freelancer tax, recibos verdes, IRS brackets 2026, social security portugal, VAT article 53, D8 visa taxes, NHR IFICI, digital nomad portugal tax">
+  <link rel="canonical" href="https://carloshmiranda.github.io/portugal-freelancer-tax-data/">
+  <style>
+    :root { --green: #16a34a; --dark: #1a1a2e; --gray: #6b7280; --light: #f9fafb; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; color: #1f2937; background: #fff; }
+    .container { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+    h1 { font-size: 2rem; color: var(--dark); margin-bottom: 0.5rem; }
+    h2 { font-size: 1.4rem; color: var(--dark); margin: 2rem 0 1rem; border-bottom: 2px solid #e5e7eb; padding-bottom: 0.5rem; }
+    h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; }
+    p { margin-bottom: 1rem; color: #374151; }
+    a { color: var(--green); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .subtitle { color: var(--gray); font-size: 1.1rem; margin-bottom: 2rem; }
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0 1.5rem; font-size: 0.95rem; }
+    th, td { padding: 0.6rem 0.8rem; text-align: left; border-bottom: 1px solid #e5e7eb; }
+    th { background: var(--light); font-weight: 600; color: var(--dark); }
+    tr:hover { background: #f3f4f6; }
+    .badge { display: inline-block; background: #dcfce7; color: var(--green); padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.85rem; font-weight: 600; margin-bottom: 1rem; }
+    .cta { background: var(--green); color: #fff; padding: 0.8rem 1.5rem; border-radius: 8px; display: inline-block; font-weight: 600; margin: 1rem 0; }
+    .cta:hover { background: #15803d; text-decoration: none; }
+    .guides { display: grid; gap: 0.8rem; margin: 1rem 0; }
+    .guide-link { padding: 0.8rem 1rem; background: var(--light); border-radius: 6px; border: 1px solid #e5e7eb; }
+    .guide-link:hover { border-color: var(--green); }
+    .footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #e5e7eb; color: var(--gray); font-size: 0.9rem; }
+    .json-link { font-family: monospace; font-size: 0.85rem; background: var(--light); padding: 0.15rem 0.4rem; border-radius: 3px; }
+    @media (max-width: 600px) { h1 { font-size: 1.5rem; } .container { padding: 1.5rem 1rem; } }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Portugal Freelancer Tax Data 2026",
+    "description": "Open-source, machine-readable dataset of Portuguese freelancer tax rates, deadlines, VAT rules, CAE codes, and NHR/IFICI data for 2026.",
+    "url": "https://carloshmiranda.github.io/portugal-freelancer-tax-data/",
+    "license": "https://opensource.org/licenses/MIT",
+    "creator": {
+      "@type": "Organization",
+      "name": "VerdeDesk",
+      "url": "https://verdedesk.vercel.app"
+    },
+    "keywords": ["portugal tax", "freelancer", "recibos verdes", "IRS brackets", "social security", "VAT", "digital nomad", "D8 visa"],
+    "temporalCoverage": "2026",
+    "spatialCoverage": "Portugal",
+    "distribution": {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://github.com/carloshmiranda/portugal-freelancer-tax-data/tree/main/data"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <span class="badge">Open Source - MIT License</span>
+    <h1>Portugal Freelancer Tax Data 2026</h1>
+    <p class="subtitle">Free, machine-readable JSON datasets for Portuguese freelancer tax rules. Built for digital nomads, D8 visa holders, and expat freelancers.</p>
+
+    <p>This open-source project provides structured tax data for anyone building tools, spreadsheets, or calculators for freelancers in Portugal. All data is sourced from the <em>Autoridade Tributaria</em> (Portuguese Tax Authority) and updated for 2026.</p>
+
+    <a href="https://github.com/carloshmiranda/portugal-freelancer-tax-data" class="cta">View on GitHub</a>
+
+    <h2>Datasets Available</h2>
+    <table>
+      <thead><tr><th>File</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><span class="json-link">irs-brackets-2026.json</span></td><td>IRS income tax brackets (9 tiers, 13.25%-48%)</td></tr>
+        <tr><td><span class="json-link">social-security.json</span></td><td>Social security rates, exemptions, quarterly rules</td></tr>
+        <tr><td><span class="json-link">vat-rates.json</span></td><td>VAT rates and Article 53 exemption thresholds</td></tr>
+        <tr><td><span class="json-link">deadlines-2026.json</span></td><td>Month-by-month tax deadlines calendar</td></tr>
+        <tr><td><span class="json-link">withholding-tax.json</span></td><td>Withholding tax (retencao na fonte) rates</td></tr>
+        <tr><td><span class="json-link">common-cae-codes.json</span></td><td>Common CAE activity codes for freelancers</td></tr>
+        <tr><td><span class="json-link">nhr-ifici-2026.json</span></td><td>NHR 2.0 / IFICI tax incentive rules</td></tr>
+      </tbody>
+    </table>
+
+    <h2>IRS Tax Brackets 2026</h2>
+    <p>Portugal uses progressive tax brackets. Freelancers under the <strong>simplified regime</strong> have a 75% taxable coefficient — only 75% of gross income is taxed.</p>
+    <table>
+      <thead><tr><th>Bracket</th><th>Taxable Income (EUR)</th><th>Rate</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>Up to 7,703</td><td>13.25%</td></tr>
+        <tr><td>2</td><td>7,703 - 11,623</td><td>18.00%</td></tr>
+        <tr><td>3</td><td>11,623 - 16,472</td><td>23.00%</td></tr>
+        <tr><td>4</td><td>16,472 - 21,321</td><td>26.00%</td></tr>
+        <tr><td>5</td><td>21,321 - 27,146</td><td>32.75%</td></tr>
+        <tr><td>6</td><td>27,146 - 39,791</td><td>37.00%</td></tr>
+        <tr><td>7</td><td>39,791 - 51,997</td><td>43.50%</td></tr>
+        <tr><td>8</td><td>51,997 - 81,199</td><td>45.00%</td></tr>
+        <tr><td>9</td><td>Over 81,199</td><td>48.00%</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Social Security for Freelancers</h2>
+    <table>
+      <thead><tr><th>Parameter</th><th>Value</th></tr></thead>
+      <tbody>
+        <tr><td>Standard rate</td><td>21.4% of relevant income</td></tr>
+        <tr><td>Relevant income</td><td>70% of gross income</td></tr>
+        <tr><td>Effective rate on gross</td><td>~14.98%</td></tr>
+        <tr><td>First-year exemption</td><td>12 months from first invoice</td></tr>
+        <tr><td>Quarterly declaration</td><td>January, April, July, October</td></tr>
+        <tr><td>Minimum contribution</td><td>EUR 20/month</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Key Deadlines 2026</h2>
+    <table>
+      <thead><tr><th>Month</th><th>Deadline</th><th>What</th></tr></thead>
+      <tbody>
+        <tr><td>January</td><td>Jan 31</td><td>Q4 2025 SS income declaration</td></tr>
+        <tr><td>February</td><td>Feb 25</td><td>Validate e-Fatura invoices for 2025</td></tr>
+        <tr><td>March</td><td>Mar 31</td><td>2025 annual income confirmation</td></tr>
+        <tr><td>April</td><td>Apr 1</td><td>IRS filing period opens</td></tr>
+        <tr><td>April</td><td>Apr 30</td><td>Q1 2026 SS declaration</td></tr>
+        <tr><td>June</td><td>Jun 30</td><td>IRS filing deadline</td></tr>
+        <tr><td>July</td><td>Jul 31</td><td>Q2 2026 SS declaration + payment</td></tr>
+        <tr><td>October</td><td>Oct 31</td><td>Q3 2026 SS declaration</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Free Tools & Guides</h2>
+    <p>These free resources from <a href="https://verdedesk.vercel.app">VerdeDesk</a> use this dataset and explain Portuguese tax rules in plain English:</p>
+    <div class="guides">
+      <a href="https://verdedesk.vercel.app/tools/tax-calculator" class="guide-link"><strong>Tax Calculator</strong> — Estimate your IRS, social security, and VAT for 2026</a>
+      <a href="https://verdedesk.vercel.app/tools/nhr-checker" class="guide-link"><strong>NHR/IFICI Checker</strong> — Check your eligibility for the 20% flat tax rate</a>
+      <a href="https://verdedesk.vercel.app/guides/how-to-issue-recibo-verde" class="guide-link"><strong>How to Issue a Recibo Verde</strong> — Step-by-step green receipt guide</a>
+      <a href="https://verdedesk.vercel.app/guides/vat-exemption-article-53" class="guide-link"><strong>VAT Exemption Article 53</strong> — 2026 threshold changes explained</a>
+      <a href="https://verdedesk.vercel.app/guides/social-security-freelancers-portugal" class="guide-link"><strong>Social Security Guide</strong> — Rates, quarterly deadlines, first-year exemption</a>
+      <a href="https://verdedesk.vercel.app/guides/irs-tax-return-freelancer-portugal" class="guide-link"><strong>IRS Tax Return Guide</strong> — Filing your 2025 return (April-June 2026)</a>
+      <a href="https://verdedesk.vercel.app/guides/d8-visa-portugal-taxes" class="guide-link"><strong>D8 Visa Tax Guide</strong> — Tax residency, NIF, IRS, VAT, SS for digital nomads</a>
+      <a href="https://verdedesk.vercel.app/guides/freelancer-tax-deadlines-2026" class="guide-link"><strong>2026 Tax Deadlines</strong> — Month-by-month calendar with penalties</a>
+      <a href="https://verdedesk.vercel.app/guides/register-freelancer-portugal" class="guide-link"><strong>How to Register as a Freelancer</strong> — Abrir atividade step-by-step</a>
+      <a href="https://verdedesk.vercel.app/guides/withholding-tax-retencao-na-fonte" class="guide-link"><strong>Withholding Tax</strong> — 25% rate, exemptions, and decision tree</a>
+      <a href="https://verdedesk.vercel.app/guides/portal-das-financas-english" class="guide-link"><strong>Portal das Financas in English</strong> — Complete menu translation</a>
+      <a href="https://verdedesk.vercel.app/guides/nif-portugal-foreigners" class="guide-link"><strong>How to Get a NIF</strong> — EU, non-EU, fiscal reps, online options</a>
+      <a href="https://verdedesk.vercel.app/guides" class="guide-link"><strong>All Guides</strong> — Browse the full library</a>
+    </div>
+
+    <div class="footer">
+      <p>Data sourced from the <em>Autoridade Tributaria</em> (Portuguese Tax Authority). Updated for 2026. This is informational data, not tax advice.</p>
+      <p>Maintained by <a href="https://verdedesk.vercel.app">VerdeDesk</a> — the English-friendly recibos verdes companion for expat freelancers in Portugal.</p>
+      <p><a href="https://github.com/carloshmiranda/portugal-freelancer-tax-data">View source on GitHub</a> | MIT License</p>
+    </div>
+  </div>
+</body>
+</html>
