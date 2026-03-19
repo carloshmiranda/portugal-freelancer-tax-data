@@ -1,0 +1,16 @@
+{
+  "country": "PT",
+  "system": "Seguranca Social",
+  "year": 2026,
+  "currency": "EUR",
+  "source": "Codigo dos Regimes Contributivos do Sistema Previdencial de Seguranca Social",
+  "freelancer_rate": 0.214,
+  "relevant_income_coefficient": 0.70,
+  "effective_rate_on_gross": 0.1498,
+  "first_year_exemption_months": 12,
+  "quarterly_declaration_months": [1, 4, 7, 10],
+  "minimum_contribution_monthly": 20.0,
+  "annual_exemption_threshold": 2736.90,
+  "ias_2026": 522.50,
+  "notes": "Relevant income = 70% of gross for service providers. First 12 months after opening activity are exempt. Quarterly declarations due by end of Jan/Apr/Jul/Oct."
+}

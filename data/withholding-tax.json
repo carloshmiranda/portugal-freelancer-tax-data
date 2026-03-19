@@ -1,0 +1,28 @@
+{
+  "country": "PT",
+  "tax": "Retencao na Fonte",
+  "year": 2026,
+  "source": "Codigo do IRS, Artigo 101",
+  "rates": [
+    {
+      "scenario": "Services to Portuguese companies (standard)",
+      "rate": 0.25,
+      "notes": "Default withholding rate for freelancer invoices to PT entities"
+    },
+    {
+      "scenario": "Article 53 exempt freelancers",
+      "rate": 0,
+      "notes": "Freelancers exempt under Article 53 CIVA are also exempt from withholding"
+    },
+    {
+      "scenario": "Income below annual threshold",
+      "rate": 0,
+      "notes": "Can request withholding exemption if income below EUR 15,000 (2026)"
+    },
+    {
+      "scenario": "Non-resident clients (outside Portugal)",
+      "rate": 0,
+      "notes": "No Portuguese withholding tax applies to invoices to foreign clients"
+    }
+  ]
+}

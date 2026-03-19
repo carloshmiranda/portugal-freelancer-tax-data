@@ -1,0 +1,25 @@
+{
+  "country": "PT",
+  "regime": "IFICI (formerly NHR)",
+  "year": 2026,
+  "source": "Lei do Orcamento do Estado 2024, Decreto-Lei 2024",
+  "flat_rate": 0.20,
+  "duration_years": 10,
+  "residency_requirement": "Must not have been tax resident in Portugal for the previous 5 years",
+  "application_deadline": "March 31 of the year following the year of becoming tax resident",
+  "eligible_activities": [
+    "Scientific research and innovation",
+    "Qualified professionals in technology",
+    "Startup founders and employees",
+    "Higher education teaching and research",
+    "Qualified jobs in entities with relevant investment projects"
+  ],
+  "foreign_income": {
+    "dividends": "Exempt if taxed in source country",
+    "interest": "Exempt if taxed in source country",
+    "capital_gains": "Exempt if taxed in source country (except PT-source)",
+    "pensions": "10% flat rate",
+    "rental_income": "Exempt if taxed in source country"
+  },
+  "notes": "NHR was closed to new applicants after December 2023. IFICI replaced it from January 2024 with stricter eligibility criteria focused on scientific research and qualified professionals."
+}

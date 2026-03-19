@@ -1,0 +1,21 @@
+{
+  "country": "PT",
+  "system": "CAE Rev. 3",
+  "source": "INE - Instituto Nacional de Estatistica",
+  "notes": "Common CAE codes used by freelancers when opening activity (abrir atividade) on Portal das Financas",
+  "codes": [
+    { "code": "62010", "description_pt": "Atividades de programacao informatica", "description_en": "Computer programming" },
+    { "code": "62020", "description_pt": "Atividades de consultoria informatica", "description_en": "IT consulting" },
+    { "code": "62090", "description_pt": "Outras atividades relacionadas com as TIC", "description_en": "Other IT activities" },
+    { "code": "63110", "description_pt": "Atividades de processamento de dados e domiciliacao de informacao", "description_en": "Data processing and hosting" },
+    { "code": "69200", "description_pt": "Atividades de contabilidade e auditoria; consultoria fiscal", "description_en": "Accounting, auditing, and tax advisory" },
+    { "code": "70220", "description_pt": "Outras atividades de consultoria para os negocios e gestao", "description_en": "Management consulting" },
+    { "code": "73110", "description_pt": "Agencias de publicidade", "description_en": "Advertising agencies" },
+    { "code": "73120", "description_pt": "Atividades de representacao nos meios de comunicacao", "description_en": "Media representation" },
+    { "code": "74100", "description_pt": "Atividades de design", "description_en": "Design (graphic, UX, product)" },
+    { "code": "74200", "description_pt": "Atividades fotograficas", "description_en": "Photography" },
+    { "code": "74300", "description_pt": "Atividades de traducao e interpretacao", "description_en": "Translation and interpretation" },
+    { "code": "85599", "description_pt": "Outras atividades educativas n.e.", "description_en": "Education and training" },
+    { "code": "90030", "description_pt": "Criacao artistica e literaria", "description_en": "Artistic and literary creation" }
+  ]
+}

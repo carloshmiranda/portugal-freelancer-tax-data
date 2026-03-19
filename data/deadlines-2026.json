@@ -1,0 +1,18 @@
+{
+  "country": "PT",
+  "year": 2026,
+  "source": "Autoridade Tributaria",
+  "deadlines": [
+    { "date": "2026-01-31", "type": "social_security", "description": "Q4 2025 quarterly income declaration to Seguranca Social" },
+    { "date": "2026-02-25", "type": "e_fatura", "description": "Validate 2025 invoices on e-Fatura portal" },
+    { "date": "2026-03-15", "type": "nhr_ifici", "description": "IFICI (NHR 2.0) application deadline for 2025 arrivals" },
+    { "date": "2026-03-31", "type": "irs", "description": "Confirm 2025 annual income on Portal das Financas" },
+    { "date": "2026-04-01", "type": "irs", "description": "IRS annual filing period opens" },
+    { "date": "2026-04-30", "type": "social_security", "description": "Q1 2026 quarterly income declaration to Seguranca Social" },
+    { "date": "2026-06-30", "type": "irs", "description": "IRS annual filing deadline" },
+    { "date": "2026-07-31", "type": "social_security", "description": "Q2 2026 quarterly income declaration + first SS payment based on new declaration" },
+    { "date": "2026-08-31", "type": "irs", "description": "IRS refund issued or additional tax due" },
+    { "date": "2026-10-31", "type": "social_security", "description": "Q3 2026 quarterly income declaration to Seguranca Social" },
+    { "date": "2026-12-31", "type": "vat", "description": "Annual VAT exemption threshold review (Article 53)" }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "country": "PT",
+  "tax": "IVA",
+  "year": 2026,
+  "currency": "EUR",
+  "source": "Codigo do IVA (CIVA)",
+  "standard_rate": 0.23,
+  "intermediate_rate": 0.13,
+  "reduced_rate": 0.06,
+  "article_53_exemption": {
+    "threshold_2025": 14500,
+    "threshold_2026": 15000,
+    "grace_period": "Eliminated January 2026",
+    "notes": "Freelancers below the threshold can opt for VAT exemption under Article 53 CIVA. If exceeded, must register for VAT immediately (no grace period from 2026)."
+  },
+  "eu_reverse_charge": {
+    "article": "Article 6 CIVA",
+    "applies_to": "B2B services to EU clients with valid VAT ID",
+    "vat_rate": 0
+  },
+  "non_eu_exports": {
+    "article": "Article 6 CIVA",
+    "vat_rate": 0,
+    "notes": "Services to non-EU clients are VAT exempt"
+  }
+}
