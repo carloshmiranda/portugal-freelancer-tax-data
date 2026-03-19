@@ -131,10 +131,10 @@ The Non-Habitual Resident regime was replaced by IFICI starting January 2024.
 
 - [VerdeDesk Tax Calculator](https://verdedesk.vercel.app/tools/tax-calculator) — Free interactive calculator for IRS, SS, and VAT
 - [VerdeDesk NHR/IFICI Checker](https://verdedesk.vercel.app/tools/nhr-checker) — Check your eligibility for the 20% flat rate
-- [How to Issue a Recibo Verde in English](https://verdedesk.vercel.app/guides/how-to-issue-recibo-verde) — Step-by-step guide
-- [Portal das Financas in English](https://verdedesk.vercel.app/guides/portal-das-financas-english) — Complete translation guide
-- [2026 Tax Deadlines Calendar](https://verdedesk.vercel.app/guides/freelancer-tax-deadlines-2026) — Never miss a deadline
-- [VAT Exemption Article 53](https://verdedesk.vercel.app/guides/vat-exemption-article-53) — Understand the threshold rules
+- [How to Issue a Recibo Verde in English](https://verdedesk.vercel.app/guide/recibo-verde-english) — Step-by-step guide
+- [Portal das Financas in English](https://verdedesk.vercel.app/guide/portal-das-financas-english) — Complete translation guide
+- [2026 Tax Deadlines Calendar](https://verdedesk.vercel.app/guide/tax-deadlines-2026) — Never miss a deadline
+- [VAT Exemption Article 53](https://verdedesk.vercel.app/guide/vat-exemption-article-53-portugal) — Understand the threshold rules
 
 ---
 
